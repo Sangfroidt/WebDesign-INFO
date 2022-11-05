@@ -6,6 +6,86 @@
 	--orange-peel: #ffa62bff;
 }
 
-.testos {
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+h1 {
+	margin: 0 auto;
+	color: var(--isabelline);
+}
+
+header {
 	background-color: var(--ming);
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+    margin: 0 auto;
+	display: flex;
+}
+
+nav li {
+	padding: 1.3em;
+}
+
+nav a {
+	text-decoration: none;
+	color: var(--isabelline);
+}
+
+nav a:hover {
+	color: #c8c8c8;
+}
+
+nav ul li:hover, nav ul li:focus {
+	background-color: var(--pacific-blue);
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.container-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  max-width: 35px;
+  float: left;
+  padding: 0.8em 0;
+}
+
+@media (max-width: 640px) {
+	.container {
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.container-nav {
+		flex-direction: column;
+	}
+
+	nav {
+		width: 100%;
+    	box-sizing: border-box;
+	}
+
+	nav ul {
+		flex-direction: column;
+		display: block;
+	}
+
+	nav li {
+		padding: 0.8em 0;
+		margin: 0 auto;
+	}
 }
