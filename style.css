@@ -6,38 +6,62 @@
 	--orange-peel: #ffa62bff;
 }
 
-body {
-	font-family: Arial, Helvetica, sans-serif;
+html, body {
 	margin: 0;
+	height: 100%;
+	min-height: 100%;
 }
 
-h1 {
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: var(--isabelline);
+	display: flex;
+	flex-direction: column;
+}
+
+h1 a {
 	margin: 0 auto;
 	color: var(--isabelline);
 }
 
 header {
 	background-color: var(--ming);
+	flex: none;
+}
+
+.menu{
+	list-style: none;
+	display: inline-flex;
+}
+
+.menu li{
+	padding: 1em;
 }
 
 nav ul {
 	list-style: none;
 	padding: 0;
-  margin: 0 auto;
+    margin: 0 auto;
 	display: flex;
 }
 
 nav li {
-	padding: 1.3em;
+	min-height: 20px;
+	text-align: center;
 }
 
 nav a {
 	text-decoration: none;
+	padding: 1.3em;
 	color: var(--isabelline);
 }
 
 nav a:hover {
 	color: #c8c8c8;
+}
+
+nav a:hover, nav a:focus {
+	background-color: var(--pacific-blue);
 }
 
 nav ul li:hover, nav ul li:focus {
@@ -63,6 +87,44 @@ nav ul li:hover, nav ul li:focus {
   padding: 0.8em 0;
 }
 
+
+.grid-container {
+	display: grid;
+	column-gap: 50px;
+	grid-template-columns: auto auto auto;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	flex: auto;
+}
+
+.grid-main {
+	background-color: var(--middle-blue);
+	padding: 20px;
+	font-size: 30px;
+	min-width: 50vw;
+	text-align: center;
+
+}
+
+.grid-aside {
+	background-color: var(--middle-blue);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+	min-width: 15vw;
+	margin: auto;
+}
+
+.mainContent{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	min-width: 20vw;
+	background-color: pink;
+	margin: 1vw auto 1vw auto;
+}
+
 footer {
 	position: absolute;
   right: 0;
@@ -71,27 +133,29 @@ footer {
   padding: 1rem;
   background-color: var(--ming);
   text-align: center;
+	flex: none;
 }
 
 footer a {
 	text-decoration: none;
 	color: var(--isabelline);
+	padding: 1.3em;
 }
 
 footer a:hover {
 	color: #c8c8c8;
+	background-color: var(--pacific-blue);
 }
 
 .footer_seznam {
 	list-style: none;
-  display: inline-flex;
+    display: inline-flex;
 	margin: 0 auto;
 	padding: 0;
-
 }
 
 .footer_seznam li {
-	padding: 1em;
+	padding: 0.5em;
 }
 
 
@@ -129,5 +193,17 @@ footer a:hover {
 		flex-direction: column;
 		display: block;
 	}
+
+}
+
+@media only screen and (max-width: 639px) {
+}
+
+
+@media  (max-width: 640px) and  (max-width: 1400px)  {
+
+}
+
+@media (min-width: 1401px) {
 
 }
