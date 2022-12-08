@@ -1,0 +1,48 @@
+Statický funkční web
+F   CH  F=po vytvoření  CH=pro konečnou kontrolu
+        Stránky (provázané odkazy):
+        Plnohodnotná úvodní stránka (Homepage)
+        Aktuality + stránka s detailem
+        Výsledky vyhledávání (+ vyhledávací box na všech stránkách)
+        Kontakty Např. Adresa, pobočky, mapa, apod.
+        Seznam osob/kontaktů + stránka s detailem + minimálně 1 další stránka, např.:
+u Minimum je tedy 8 stránek (html souborů):
+        aktuality
+        detaily
+        index
+        kontakty
+        proRodice
+        proUcitele
+        proZaky
+        ?
+x        Viditelné označení, že se jedná o studentský projekt na každé stránce
+        /Důraz na použitelnost
+        struktura a informační architektura, navigace, vyhledávání, drobečková navigace,…
+        Responzivní design
+        Vytvořeno přístupem Mobile-first
+        /Nejnovější HTML5 (ne XHTML, HTML 4)
+        Sémantické elementy (správně použité)
+        /Použít správně všechny následující elementy:
+        main, article (min 10x), section (min. 3x), header (min. 2x), footer (min. 2x), aside
+        p, ul/ol, li, figure, figcaption, img
+        h1, h2, h3
+        /Bez použití frameworků a šablon
+        /Možné použít dílčí knihovny
+        Vlastní CSS alespoň 400 řádků
+        Využití CSS proměnných (custom properties)
+        Barvy, odsazení, velikost písma
+        Grid layout
+        Alespoň 10 elementů uvnitř
+        Alespoň 2 elementy musí zabírat více buněk
+        Flexbox
+        Alespoň 5 prvků
+        /Přístupnost alespoň WCAG 1.0
+
+
+Projekt – hodnocení
+u Validita kódu – 5 bodů (http://validator.w3.org/)
+u Přístupnost – 5 bodů
+u Sémantika – 15 bodů
+u Responzivní design, Mobile-first – 10 bodů
+u Použitelnost – 10 bodů
+u CSS, Grid, Flexbox – 15 bodů
