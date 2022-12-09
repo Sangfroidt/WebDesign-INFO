@@ -7,7 +7,7 @@ F   CH  F=po vytvoření  CH=pro konečnou kontrolu
         Kontakty Např. Adresa, pobočky, mapa, apod.
         Seznam osob/kontaktů + stránka s detailem + minimálně 1 další stránka, např.:
         u Minimum je tedy 8 stránek (html souborů):
-        aktuality - GRID - Honza
+x?        aktuality - GRID - Honza
         detaily - Honza
         index - Fanda
         kontakty - Fanda
@@ -31,9 +31,9 @@ x        Viditelné označení, že se jedná o studentský projekt na každé s
         Vlastní CSS alespoň 400 řádků
         Využití CSS proměnných (custom properties)
         Barvy, odsazení, velikost písma
-        Grid layout
-        Alespoň 10 elementů uvnitř
-        Alespoň 2 elementy musí zabírat více buněk
+x        Grid layout
+x        Alespoň 10 elementů uvnitř
+x        Alespoň 2 elementy musí zabírat více buněk
 x       Flexbox
 x       Alespoň 5 prvků
         /Přístupnost alespoň WCAG 1.0
