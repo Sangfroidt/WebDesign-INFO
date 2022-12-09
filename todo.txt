@@ -4,7 +4,7 @@ F   CH  F=po vytvoření  CH=pro konečnou kontrolu
         Plnohodnotná úvodní stránka (Homepage)
         Aktuality + stránka s detailem
         Výsledky vyhledávání (+ vyhledávací box na všech stránkách)
-        Kontakty Např. Adresa, pobočky, mapa, apod.
+x        Kontakty Např. Adresa, pobočky, mapa, apod.
         Seznam osob/kontaktů + stránka s detailem + minimálně 1 další stránka, např.:
         u Minimum je tedy 8 stránek (html souborů):
 x?        aktuality - GRID - Honza
@@ -23,13 +23,14 @@ x        Viditelné označení, že se jedná o studentský projekt na každé s
         /Nejnovější HTML5 (ne XHTML, HTML 4)
         Sémantické elementy (správně použité)
         /Použít správně všechny následující elementy:
-        main, article (min 10x), section (min. 3x), header (min. 2x), footer (min. 2x), aside
-        p, ul/ol, li, figure, figcaption, img
-        h1, h2, h3
+        main-, article (min 10x) 2/10, section (min. 3x)-,
+        header (min. 2x)-, footer (min. 2x)-?, aside-
+x        p-, ul/ol-, li-, figure-, figcaption-, img-
+x        h1-, h2-, h3-
         /Bez použití frameworků a šablon
         /Možné použít dílčí knihovny
         Vlastní CSS alespoň 400 řádků
-        Využití CSS proměnných (custom properties)
+x        Využití CSS proměnných (custom properties)
         Barvy, odsazení, velikost písma
 x        Grid layout
 x        Alespoň 10 elementů uvnitř
@@ -37,7 +38,7 @@ x        Alespoň 2 elementy musí zabírat více buněk
 x       Flexbox
 x       Alespoň 5 prvků
         /Přístupnost alespoň WCAG 1.0
-
+        "/"značí to co půjde zkontrolovat až na konci práce i guess
 
 Projekt – hodnocení
 u Validita kódu – 5 bodů (http://validator.w3.org/)

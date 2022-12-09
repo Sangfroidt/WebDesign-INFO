@@ -235,3 +235,32 @@ table {
 .aktualitaMargin{
     margin:10px;
 }
+
+.paragraphHighlight{
+    padding: 5px;
+    background: var(--orange-peel);
+}
+.kontaktyUl{
+    border-bottom: #e1eef1 3px double;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.contentKontakty{
+    background: var(--pacific-blue);
+    flex: 1;
+}
+
+figure {
+    border: thick #fff solid;
+    display: flex;
+    flex-flow: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: var(--pacific-blue);
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
