@@ -34,8 +34,8 @@ x        Viditelné označení, že se jedná o studentský projekt na každé s
         Grid layout
         Alespoň 10 elementů uvnitř
         Alespoň 2 elementy musí zabírat více buněk
-        Flexbox
-        Alespoň 5 prvků
+x       Flexbox
+x       Alespoň 5 prvků
         /Přístupnost alespoň WCAG 1.0
 
 
