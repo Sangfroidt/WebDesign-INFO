@@ -148,7 +148,7 @@ header, section, aside {
 }
 
 main {
-    background: #000000;
+	background-color: var(--isabelline);
     min-height: 100vh;
     margin: 0;
     padding-bottom: 50vh;
@@ -172,14 +172,13 @@ main {
 }
 
 .content {
-    background: #129a22;
     flex: 1;
+    background-color: var(--isabelline);
 }
 
 .sidebar {
-		flex: 0 1 18.75rem;
-    border: 1px solid #000000;
-    background: #673ab7;
+	flex: 0 1 18.75rem;
+    background-color: var(--isabelline);
 }
 
 .wrapper {
@@ -191,6 +190,145 @@ main {
 	position: absolute;
 	margin: 0 auto;
 	width: 100%;
-  padding-top: 15vh;
-  font-size: 5ch;
+  	padding-top: 15vh;
+ 	font-size: 5vh;
+}
+
+.sidebar_obsah {
+	text-align: left;
+	margin-bottom: 3vh;
+}
+
+.side_h {
+    background-color: var(--pacific-blue);
+    padding: 0 2vh;
+    color: #fff;
+    position: relative;
+    display: block;
+    line-height: 6vh;
+    margin: 0;
+}
+
+.textwidget {
+	display: block;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: white;
+}
+
+.submenu {
+	padding-left: 1.5vh;
+	list-style: none;
+	color: black;
+	margin: 0;
+}
+
+.odkaz_vysledkyVyhledavani {
+	color: #444;
+    padding: 2.2vh 1.5vh;
+    display: block;
+    text-decoration: none;
+}
+
+.aside_icon {
+	color: var(--pacific-blue);
+    margin-right: 1vh;
+}
+
+.search-container {
+    height: 9vh;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: white;
+}
+
+.search-container button {
+    float: left;
+    padding: 1.2vh 0;
+    width: 20%;
+    background: #ddd;
+    font-size: 2.5vh;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=text] {
+	width: 80%;
+    padding: 1.2vh 0;
+    font-size: 2.5vh;
+    border: none;
+    background-color: var(--isabelline);
+}
+
+.posledni_aktuality_li {
+	list-style: none;
+	color: #777;
+	padding-bottom: 3vh;
+	padding-top: 3vh;
+	border-bottom: #d5e5e9 1px solid;
+}
+
+.datum_clanku {
+    font-style: italic;
+    font-size: 110%;
+    padding-bottom: 2.3vh;
+    margin-bottom: 2.3vh;
+    display: block;
+}
+
+.side_h4 {
+	margin-top: 0;
+}
+
+.posledni_aktuality_container {
+	background-color: white;
+	padding: 2vh 1vh 1vh 1vh;
+}
+
+.posledni_aktuality_ul {
+	margin-top: 0;
+}
+
+/* CONTENT */
+
+.content_clanek_container {
+	background-color: white;
+	padding: 2vh 1vh 1vh 1vh;
+}
+
+.content_clanek_ul {
+	margin-top: 0;
+}
+
+.content_clanek_li {
+	list-style: none;
+	color: #777;
+	padding-bottom: 3vh;
+	padding-top: 3vh;
+	border-bottom: #d5e5e9 1px solid;
+}
+
+.content_datum_clanku {
+    font-style: italic;
+    font-size: 100%;
+    padding-bottom: 2.3vh;
+    margin-bottom: 2.3vh;
+    margin-top: 1vh;
+    display: block;
+}
+
+.content_h4 {
+	margin-top: 0;
+}
+
+.content_img {
+	width: 180px;
+	float: right;
 }

@@ -7,7 +7,7 @@ x        Kontakty Např. Adresa, pobočky, mapa, apod.
         Seznam osob/kontaktů + stránka s detailem + minimálně 1 další stránka, např.:
 x?        aktuality - GRID - Honza
         detaily - Honza
-        index - Fanda
+x       index - Fanda
         kontakty - Fanda
         proRodice - Honza
         proUcitele - Honza
