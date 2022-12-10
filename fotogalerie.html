@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/4ba5c8c0b5.js" crossorigin="anonymous"></script>
+	<title>Fotogalerie</title>
+</head>
+<body>
+	
+<!-- Flexbox-Main Content -->
+<main>
+
+    <!-- Header -->
+	<header>
+	  <div class="container container-nav">
+		<a href="index.html"><img src="media/poplar_logo.png" alt="logo" class="logo"></a>
+
+	  	<h1><a href="index.html">Základní škola Topol</a></h1>
+
+	    <nav>
+	      <ul id="menu">
+	        <li class="navItem"><a href="kontakty.html">Kontakty</a></li>
+			<li class="navItem"><a href="aktuality.html">Aktuality</a></li>
+			<li class="navItem"><a href="archiv.html">Archív</a></li>
+			<li class="navItem"><a href="fotogalerie.html">Fotogalerie</a></li>
+	      </ul>
+	    </nav>
+	  </div>
+	</header>
+
+    <!-- Hero -->
+	<section class="hero">
+	    <h2 class="vitejte_text">FOTOGALERIE</h2>
+	    <img src="media/hero_img.jpg" alt="obrazek_skoly" class="hero">
+	</section>
+
+	<div class="flex-container wrapper">
+
+	    <!-- Content -->
+	    <section class="content">
+	      	
+	      	<div class="vysledkyVyhledavani_content_container">
+			  		<div class="fotogalerie_title">
+					  <h2>Galerie fotek ZŠ Topol</h2>
+					  <p>Pro zvětšení klikněte na obrázky níže:</p>
+					</div>
+
+					<div class="container_fotogalerie">
+
+					  	<img class="myImg" id="myImg" src="media/fotogalerie/rousky.jpg" alt="fotogalerie obrazek">
+					  	<img class="myImg" id="myImg" src="media/fotogalerie/malovani.jpg" alt="fotogalerie obrazek">
+					  	<img class="myImg" id="myImg" src="media/fotogalerie/jidelna.jpg" alt="fotogalerie obrazek">
+					  	<img class="myImg" id="myImg" src="media/fotogalerie/trida_hlaseni.jpg" alt="fotogalerie obrazek">
+					  	<img class="myImg" id="myImg" src="media/fotogalerie/trida.jpg" alt="fotogalerie obrazek">
+					  	<img class="myImg" id="myImg" src="media/fotogalerie/telocvicna.jpg" alt="fotogalerie obrazek">
+					  	<img class="myImg" id="myImg" src="media/fotogalerie/satny.jpg" alt="fotogalerie obrazek">
+					  	<img class="myImg" id="myImg" src="media/fotogalerie/budova.jpg" alt="fotogalerie obrazek">
+					  	<img class="myImg" id="myImg" src="media/fotogalerie/venkovni_trat.jpg" alt="fotogalerie obrazek">
+
+						<!-- The Modal -->
+						<div id="myModal" class="modal">
+						  <span class="close">&times;</span>
+						  <img class="modal-content" id="img01">
+						  <div id="caption"></div>
+						</div>
+
+					</div>
+					
+		  	</div>
+	    </section>
+
+	    <!-- Sidebar -->
+	    <aside class="sidebar">
+	        <div class="sidebar_obsah">
+	        	<h3 class="side_h">ŽK a rozvrhy tříd</h3>
+	        	<div class="textwidget">
+	        		<ul class="submenu">
+	        			<li>
+	        				<a href="vysledkyVyhledavani.html" class="odkaz_vysledkyVyhledavani"><i class="fa fa-book aside_icon"></i>Elektronická žákovská knížka</a>
+	        			</li>
+	        		</ul>
+	        	</div>
+
+	        	<h3 class="side_h">Online výuka</h3>
+	        	<div class="textwidget">
+	        		<ul class="submenu">
+	        			<li>
+	        				<a href="vysledkyVyhledavani.html" class="odkaz_vysledkyVyhledavani"><i class="fa fa-users aside_icon"></i>Google Classroom</a>
+	        			</li>
+	        		</ul>
+	        	</div>
+
+	        	<h3 class="side_h">Vyhledávání</h3>
+	        	<div class="search-container">
+				    <form action="vysledkyVyhledavani.html">
+			      		<input type="text" placeholder="Hledat.." name="search">
+			      		<button type="submit"><i class="fa fa-search"></i></button>
+			    	</form>
+			  	</div>
+
+			  	<h3 class="side_h">Školní družina</h3>
+	        	<div class="textwidget">
+	        		<ul class="submenu">
+	        			<li>
+	        				<a href="vysledkyVyhledavani.html" class="odkaz_vysledkyVyhledavani"><i class="fa fa-paint-brush aside_icon"></i>Výběr tříd družin</a>
+	        			</li>
+	        		</ul>
+	        	</div>
+
+	        	<h3 class="side_h">Mateřská škola</h3>
+	        	<div class="textwidget">
+	        		<ul class="submenu">
+	        			<li>
+	        				<a href="vysledkyVyhledavani.html" class="odkaz_vysledkyVyhledavani"><i class="fa fa-futbol-o aside_icon"></i>Registrace nového žáka</a>
+	        			</li>
+	        		</ul>
+	        	</div>
+
+	        	<h3 class="side_h">Školní jídelna</h3>
+	        	<div class="textwidget">
+	        		<ul class="submenu">
+	        			<li>
+	        				<a href="vysledkyVyhledavani.html" class="odkaz_vysledkyVyhledavani"><i class="fa fa-cutlery aside_icon"></i>Školní jídelní lístek</a>
+	        			</li>
+	        		</ul>
+	        	</div>
+
+	        	<h3 class="side_h">Poslední Aktuality</h3>
+			  	<div class="posledni_aktuality_container">
+			  		<ul class="posledni_aktuality_ul">
+			  			
+			  			<li class="posledni_aktuality_li">
+			  				<h4 class="side_h4">Aktualizace školního řádu</h4>
+			  				<time class="datum_clanku">25.11.2022</time>
+			  				<span>Dne 25.11.2022 došlo ke změně školního řádu. Jeho aktuální platné znění naleznete zde.</span>
+			  				<br><br><a href="vysledkyVyhledavani.html">Více informací</a>
+			  			</li>
+
+			  			<li class="posledni_aktuality_li">
+			  				<h4 class="side_h4">Konzultační hodiny</h4>
+			  				<time class="datum_clanku">24.11.2022</time>
+			  				<span>Vážení rodiče, upozorňujeme Vás na naše tradiční a plánované konzultační hodiny – ,,setkání ve třech“ (účast dítěte není podmínkou). REZERVACE TERMÍNŮ BYLA UKONČENA</span>
+			  				<br><br><a href="vysledkyVyhledavani.html">Více informací</a>
+			  			</li>
+
+			  		</ul>
+			  	</div>
+
+	        </div>
+	    </aside>
+
+    </div>
+
+    <!-- Footer -->
+	<footer>
+		<ul class="footer_seznam">
+        	<li><a href="kontakty.html">Kontakty</a></li>
+			<li><a href="seznamOsob.html">Seznam osob kontaktů</a></li>
+			<li><a href="detaily.html">Detaily</a></li>
+		</ul>
+
+	<div class="studentskyProjekt">
+		<h3 class="footer_disclaimer">Jedná o studentský projekt!</h3>
+	</div>
+	</footer>
+
+</main>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementsByClassName('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+
+var showModal = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+for (var i = 0; i < img.length; i++) {
+    img[i].addEventListener('click', showModal);
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
+</body>
+</html>
