@@ -367,10 +367,11 @@ input[type=text] {
 }
 
 .grid-container > div {
-    background-color: var(--pacific-blue);
+    background-color: white;
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
+    border: black 2px solid;
 }
 .novinka1 { grid-area: novinka1; }
 .novinka2 { grid-area: novinka2; }
@@ -386,9 +387,7 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
-.aktualitaContent{
-    background-color: var(--middle-blue);
-}
+
 .aktualitaMargin{
     margin:10px;
 }
@@ -403,6 +402,7 @@ table {
     padding-bottom: 15px;
 }
 .contentKontakty{
+    background: white;
     flex: 1;
 }
 
@@ -420,6 +420,68 @@ figcaption {
     padding: 3px;
     text-align: center;
 }
+
+
+
+.kartickaKontaktu{
+    background-color: white;
+    padding: 2vh 1vh 1vh 1vh;
+    min-height: 742px;
+    color: #777;
+
+}
+
+.kontaktInfo{
+    color: #777;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+}
+.sidebarKontakt{
+    flex: 0 1 18.75rem;
+}
+
+.contentKontakty{
+    list-style: none;
+    color: #777;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+    border-bottom: #d5e5e9 1px solid;
+}
+
+.kontaktDetail {
+    margin-top: 0;
+    text-align: center;
+}
+
+.kontakt_ul {
+    display: inline-block;
+}
+
+
+.kontant_li {
+    list-style: none;
+    color: #777;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+    border-bottom: #d5e5e9 1px solid;
+}
+.kontakt {
+    text-align: center;
+    margin: auto;
+}
+.kontakt ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    /* For IE, the outcast */
+    zoom:1;
+    *display: inline;
+}
+.kontakt li {
+    float: left;
+    padding: 2px 5px;
+}
+
 
 ul {
 	list-style: none;
