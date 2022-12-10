@@ -11,7 +11,7 @@ x       kontakty - Fanda
 x       vysledkyVyhledavani - Fanda
 x       Viditelné označení, že se jedná o studentský projekt na každé stránce
 x       struktura a informační architektura, navigace, vyhledávání, drobečková navigace,…
-        main-, article (min 10x) 2/10, section (min. 3x)-,
+x        main-, article (min 10x) 10/10, section (min. 3x)-,
 x        header (min. 2x)-, footer (min. 2x)-?, aside-
 x       p-, ul/ol-, li-, figure-, figcaption-, img-
 x       h1-, h2-, h3-
