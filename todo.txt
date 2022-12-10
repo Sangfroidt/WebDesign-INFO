@@ -7,7 +7,7 @@ x       index - Fanda
 x       Kontakty Např. Adresa, pobočky, mapa, apod.
 x       Seznam osob/kontaktů + stránka s detailem + minimálně 1 další stránka, např.:
 x       kontakty - Fanda
-        Výsledky vyhledávání (+ vyhledávací box na všech stránkách)
+x        Výsledky vyhledávání (+ vyhledávací box na všech stránkách)
 x       vysledkyVyhledavani - Fanda
 x       Viditelné označení, že se jedná o studentský projekt na každé stránce
 x       struktura a informační architektura, navigace, vyhledávání, drobečková navigace,…
@@ -24,17 +24,17 @@ x       Flexbox
 x       Alespoň 5 prvků
 
         "/" značí to co půjde zkontrolovat až na konci práce i guess
-        /u Minimum je tedy 8 stránek (html souborů):
-        /Stránky (provázané odkazy):
-        /Responzivní design
-        /Důraz na použitelnost
-        /Nejnovější HTML5 (ne XHTML, HTML 4)
-        /Přístupnost alespoň WCAG 1.0
-        /Bez použití frameworků a šablon
-        /Možné použít dílčí knihovny
-        /Vytvořeno přístupem Mobile-first
-        /Sémantické elementy (správně použité)
-        /Barvy, odsazení, velikost písma
+x        /u Minimum je tedy 8 stránek (html souborů):
+x        /Stránky (provázané odkazy):
+x        /Responzivní design
+x        /Důraz na použitelnost
+x        /Nejnovější HTML5 (ne XHTML, HTML 4)
+x        /Přístupnost alespoň WCAG 1.0
+x        /Bez použití frameworků a šablon
+x        /Možné použít dílčí knihovny
+x        /Vytvořeno přístupem Mobile-first
+x?        /Sémantické elementy (správně použité)
+x        /Barvy, odsazení, velikost písma
 
 Projekt – hodnocení
 u Validita kódu – 5 bodů (http://validator.w3.org/)
