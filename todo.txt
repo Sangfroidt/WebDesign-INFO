@@ -2,15 +2,11 @@ Statický funkční web
 F   CH  F=po vytvoření  CH=pro konečnou kontrolu
         Aktuality + stránka s detailem
 x?      aktuality - GRID - Honza
-        detaily - Honza
 x       Plnohodnotná úvodní stránka (Homepage)
 x       index - Fanda
 x       Kontakty Např. Adresa, pobočky, mapa, apod.
         Seznam osob/kontaktů + stránka s detailem + minimálně 1 další stránka, např.:
         kontakty - Fanda
-        proRodice - Honza
-        proUcitele - Honza
-        proZaky - Honza
         Výsledky vyhledávání (+ vyhledávací box na všech stránkách)
 x       vysledkyVyhledavani - Fanda
 x       Viditelné označení, že se jedná o studentský projekt na každé stránce

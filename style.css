@@ -435,3 +435,25 @@ ul {
     text-decoration: none;
     text-align: center;
 }
+
+.archiv_kategorie {
+	flex: 0 1 18.75rem;
+}
+
+.archiv_kategorie_ul {
+	list-style: disc;
+	text-align: left;
+	padding: 2vh;
+	line-height: 4vh;
+	margin-left: 10vh;
+}
+
+.archiv_titulek_odkaz {
+	padding: 2vh;
+	line-height: 4vh;
+}
+
+.archiv_titulek {
+	flex: 1;
+	margin-right: 2vh;
+}
