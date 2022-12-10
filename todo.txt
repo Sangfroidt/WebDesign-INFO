@@ -1,37 +1,36 @@
 Statický funkční web
 F   CH  F=po vytvoření  CH=pro konečnou kontrolu
-        Plnohodnotná úvodní stránka (Homepage)
         Aktuality + stránka s detailem
-        Výsledky vyhledávání (+ vyhledávací box na všech stránkách)
-x        Kontakty Např. Adresa, pobočky, mapa, apod.
-        Seznam osob/kontaktů + stránka s detailem + minimálně 1 další stránka, např.:
-x?        aktuality - GRID - Honza
+x?      aktuality - GRID - Honza
         detaily - Honza
+        Plnohodnotná úvodní stránka (Homepage)
 x       index - Fanda
+x       Kontakty Např. Adresa, pobočky, mapa, apod.
+        Seznam osob/kontaktů + stránka s detailem + minimálně 1 další stránka, např.:
         kontakty - Fanda
         proRodice - Honza
         proUcitele - Honza
         proZaky - Honza
+        Výsledky vyhledávání (+ vyhledávací box na všech stránkách)
         vysledkyVyhledavani - Fanda
-x        Viditelné označení, že se jedná o studentský projekt na každé stránce
+x       Viditelné označení, že se jedná o studentský projekt na každé stránce
         struktura a informační architektura, navigace, vyhledávání, drobečková navigace,…
         main-, article (min 10x) 2/10, section (min. 3x)-,
         header (min. 2x)-, footer (min. 2x)-?, aside-
-x        p-, ul/ol-, li-, figure-, figcaption-, img-
-x        h1-, h2-, h3-
-        Vlastní CSS alespoň 400 řádků
-x        Využití CSS proměnných (custom properties)
-        Barvy, odsazení, velikost písma
-x?        Grid layout:
-x?        Alespoň 10 elementů uvnitř
-x?        Alespoň 2 elementy musí zabírat více buněk
+x       p-, ul/ol-, li-, figure-, figcaption-, img-
+x       h1-, h2-, h3-
+x       Vlastní CSS alespoň 400 řádků
+x       Využití CSS proměnných (custom properties)
+x?      Grid layout:
+x?      Alespoň 10 elementů uvnitř
+x?      Alespoň 2 elementy musí zabírat více buněk
 x       Flexbox
 x       Alespoň 5 prvků
 
         "/" značí to co půjde zkontrolovat až na konci práce i guess
         /u Minimum je tedy 8 stránek (html souborů):
         /Stránky (provázané odkazy):
-        Responzivní design
+        /Responzivní design
         /Důraz na použitelnost
         /Nejnovější HTML5 (ne XHTML, HTML 4)
         /Přístupnost alespoň WCAG 1.0
@@ -39,6 +38,7 @@ x       Alespoň 5 prvků
         /Možné použít dílčí knihovny
         /Vytvořeno přístupem Mobile-first
         /Sémantické elementy (správně použité)
+        /Barvy, odsazení, velikost písma
 
 Projekt – hodnocení
 u Validita kódu – 5 bodů (http://validator.w3.org/)
