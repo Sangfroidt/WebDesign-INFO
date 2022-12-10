@@ -332,3 +332,106 @@ input[type=text] {
 	width: 180px;
 	float: right;
 }
+
+.vysledkyVyhledavani_content_container {
+    background-color: white;
+    padding: 2vh 1vh 1vh 1vh;
+	color: #444;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+.content_clanek_article {
+	list-style: none;
+	color: #777;
+	padding-bottom: 3vh;
+	padding-top: 3vh;
+	border-bottom: #d5e5e9 1px solid;
+	border-top: #d5e5e9 1px solid;
+	text-align: left;
+}
+
+.vysledkyVyhledavani_content_container h4 {
+	text-align: left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+            'novinka1 novinka1 novinka1'
+            'novinka2 novinka2 novinka2'
+            'novinka3 novinka3 novinka3'
+            'novinka4 novinka4 novinka5'
+            'novinka4 novinka4 novinka5';
+    gap: 10px;
+    background-color: #FFFFFF;
+    padding: 10px 10px 20vh;
+}
+
+.grid-container > div {
+    background-color: var(--pacific-blue);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.novinka1 { grid-area: novinka1; }
+.novinka2 { grid-area: novinka2; }
+.novinka3 { grid-area: novinka3; }
+.novinka4 { grid-area: novinka4; }
+.novinka5 { grid-area: novinka5; }
+
+table, td, th {
+    border: 1px solid;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.aktualitaContent{
+    background-color: var(--middle-blue);
+}
+.aktualitaMargin{
+    margin:10px;
+}
+
+.paragraphHighlight{
+    padding: 5px;
+    background: var(--orange-peel);
+}
+.kontaktyUl{
+    border-bottom: #e1eef1 3px double;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.contentKontakty{
+    flex: 1;
+}
+
+figure {
+    border: thick #fff solid;
+    display: flex;
+    flex-flow: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: var(--pacific-blue);
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+.kontakty_content_container {
+    background-color: white;
+    padding: 2vh 1vh 1vh 1vh;
+	color: #444;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
