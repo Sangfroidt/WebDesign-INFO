@@ -1,40 +1,40 @@
 Statický funkční web
-F   CH  F=po vytvoření  CH=pro konečnou kontrolu
-x       Aktuality + stránka s detailem
-x?      aktuality - GRID - Honza
-x       Plnohodnotná úvodní stránka (Homepage)
-x       index - Fanda
-x       Kontakty Např. Adresa, pobočky, mapa, apod.
-x       Seznam osob/kontaktů + stránka s detailem + minimálně 1 další stránka, např.:
-x       kontakty - Fanda
-x        Výsledky vyhledávání (+ vyhledávací box na všech stránkách)
-x       vysledkyVyhledavani - Fanda
-x       Viditelné označení, že se jedná o studentský projekt na každé stránce
-x       struktura a informační architektura, navigace, vyhledávání, drobečková navigace,…
-x        main-, article (min 10x) 10/10, section (min. 3x)-,
-x        header (min. 2x)-, footer (min. 2x)-?, aside-
-x       p-, ul/ol-, li-, figure-, figcaption-, img-
-x       h1-, h2-, h3-
-x       Vlastní CSS alespoň 400 řádků
-x       Využití CSS proměnných (custom properties)
-x?      Grid layout:
-x?      Alespoň 10 elementů uvnitř
-x?      Alespoň 2 elementy musí zabírat více buněk
-x       Flexbox
-x       Alespoň 5 prvků
+F   CHH   CHF   F=po vytvoření  CH=pro konečnou kontrolu (H-honza, F-Fanda)
+x    x           Aktuality + stránka s detailem
+x    x           aktuality - GRID - Honza
+x    x           Plnohodnotná úvodní stránka (Homepage)
+x    x           index - Fanda
+x    x           Kontakty Např. Adresa, pobočky, mapa, apod.
+x    x           Seznam osob/kontaktů + stránka s detailem + minimálně 1 další stránka, např.:
+x    x           kontakty - Fanda
+x    x           Výsledky vyhledávání (+ vyhledávací box na všech stránkách)
+x    x           vysledkyVyhledavani - Fanda
+x    x           Viditelné označení, že se jedná o studentský projekt na každé stránce
+x    x           struktura a informační architektura, navigace, vyhledávání, drobečková navigace,…
+x    x           main-, article (min 10x) 10/10, section (min. 3x)-,
+x    x           header (min. 2x)-, footer (min. 2x)-?, aside-
+x    x           p-, ul/ol-, li-, figure-, figcaption-, img-
+x    x           h1-, h2-, h3-
+x    x           Vlastní CSS alespoň 400 řádků
+x    x           Využití CSS proměnných (custom properties)
+x?   x           Grid layout:
+x?   x           Alespoň 10 elementů uvnitř
+x?   x           Alespoň 2 elementy musí zabírat více buněk
+x    x           Flexbox
+x    x           Alespoň 5 prvků
 
-        "/" značí to co půjde zkontrolovat až na konci práce i guess
-x        /u Minimum je tedy 8 stránek (html souborů):
-x        /Stránky (provázané odkazy):
-x        /Responzivní design
-x        /Důraz na použitelnost
-x        /Nejnovější HTML5 (ne XHTML, HTML 4)
-x        /Přístupnost alespoň WCAG 1.0
-x        /Bez použití frameworků a šablon
-x        /Možné použít dílčí knihovny
-x        /Vytvořeno přístupem Mobile-first
-x?        /Sémantické elementy (správně použité)
-x        /Barvy, odsazení, velikost písma
+                "/" značí to co půjde zkontrolovat až na konci práce i guess
+x    x           /u Minimum je tedy 8 stránek (html souborů):
+x    x           /Stránky (provázané odkazy):
+x    x           /Responzivní design
+x    x           /Důraz na použitelnost
+x    x           /Nejnovější HTML5 (ne XHTML, HTML 4)
+x    x           /Přístupnost alespoň WCAG 1.0
+x    x           /Bez použití frameworků a šablon
+x    x           /Možné použít dílčí knihovny
+x    x           /Vytvořeno přístupem Mobile-first
+x?   x           /Sémantické elementy (správně použité)
+x    x           /Barvy, odsazení, velikost písma
 
 Projekt – hodnocení
 u Validita kódu – 5 bodů (http://validator.w3.org/)
