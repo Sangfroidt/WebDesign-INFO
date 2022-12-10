@@ -351,6 +351,7 @@ input[type=text] {
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
+    border: black 2px solid;
 }
 .novinka1 { grid-area: novinka1; }
 .novinka2 { grid-area: novinka2; }
@@ -366,9 +367,7 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
-.aktualitaContent{
-    background-color: var(--middle-blue);
-}
+
 .aktualitaMargin{
     margin:10px;
 }
